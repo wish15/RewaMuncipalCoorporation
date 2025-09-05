@@ -1,0 +1,19 @@
+[build]
+  # No build command needed for static HTML
+  command = ""
+  # Publish the root directory since your HTML files are there
+  publish = "."
+
+# Optional: Set up redirects for better navigation
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  conditions = {Role = ["admin"], Country = ["US"]}
+
+# Headers for better performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
