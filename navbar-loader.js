@@ -87,10 +87,17 @@ function loadNavbar(activePage = 'home') {
         // Set active page
         setActiveNavItem(activePage);
         
+        // Dispatch custom event that navbar is loaded
+        document.dispatchEvent(new CustomEvent('navbarLoaded'));
+        
         // Initialize functionality after navbar is loaded
         setTimeout(() => {
-            initDropdownMenus();
-            initMobileMenu();
+            if (typeof window.reinitializeNavigation === 'function') {
+                window.reinitializeNavigation();
+            } else if (typeof initDropdownMenus === 'function' && typeof initMobileMenu === 'function') {
+                initDropdownMenus();
+                initMobileMenu();
+            }
         }, 100);
     } else {
         console.error('Navbar placeholder not found');
