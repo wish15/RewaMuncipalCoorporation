@@ -1,0 +1,6 @@
+[build]
+  command = "ls -la && echo 'Static HTML site - no build needed'"
+  publish = "."
+  
+[build.environment]
+  NODE_VERSION = "18"
