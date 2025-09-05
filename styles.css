@@ -173,6 +173,8 @@ body {
     flex-direction: column;
     cursor: pointer;
     padding: 10px;
+    z-index: 1001;
+    position: relative;
 }
 
 .hamburger span {
@@ -600,7 +602,7 @@ body {
     }
     
     .hamburger {
-        display: none !important;
+        display: none;
     }
 }
 
@@ -618,7 +620,7 @@ body {
     }
     
     .hamburger {
-        display: flex;
+        display: flex !important;
     }
     
     .navbar .nav-menu {
