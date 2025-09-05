@@ -9,6 +9,20 @@ document.addEventListener('DOMContentLoaded', function() {
     initServiceCardAnimations();
 });
 
+// Global function to reinitialize navigation after dynamic loading
+window.reinitializeNavigation = function() {
+    initMobileMenu();
+    initDropdownMenus();
+};
+
+// Listen for navbar loaded event
+document.addEventListener('navbarLoaded', function() {
+    setTimeout(() => {
+        initMobileMenu();
+        initDropdownMenus();
+    }, 50);
+});
+
 // Banner Slider Functionality
 function initBannerSlider() {
     const slides = document.querySelectorAll('.banner-slide');
