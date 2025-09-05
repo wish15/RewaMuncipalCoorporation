@@ -1,0 +1,15 @@
+<!-- Placeholder SVG for Digital India Logo -->
+<svg width="120" height="60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="digitalGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff7b39;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#138808;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="60" fill="url(#digitalGradient)" rx="5"/>
+  <text x="60" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Digital India</text>
+  <text x="60" y="40" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">Power to Empower</text>
+  <circle cx="20" cy="30" r="8" fill="#ff7b39" opacity="0.7"/>
+  <circle cx="100" cy="30" r="8" fill="#138808" opacity="0.7"/>
+</svg>

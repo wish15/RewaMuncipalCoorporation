@@ -1,0 +1,236 @@
+{
+  "siteConfig": {
+    "title": "Rewa Municipal Corporation",
+    "subtitle": "रीवा नगर निगम",
+    "description": "Gateway to Digital Services and Civic Solutions",
+    "contact": {
+      "address": "Rewa Municipal Corporation, MP 486001",
+      "phone": "+91-7662-123456",
+      "email": "info@rewa.gov.in"
+    }
+  },
+  "services": [
+    {
+      "id": "bpl-status",
+      "title": "BPL Application Status",
+      "description": "Check your Below Poverty Line application status online",
+      "icon": "fas fa-file-alt",
+      "category": "application",
+      "url": "https://bpl.rewa.gov.in",
+      "active": true
+    },
+    {
+      "id": "marriage-registration",
+      "title": "Marriage Registration", 
+      "description": "Register your marriage online with Rewa Municipal Corporation",
+      "icon": "fas fa-heart",
+      "category": "registration",
+      "url": "https://marriage.rewa.gov.in",
+      "active": true
+    },
+    {
+      "id": "income-certificate",
+      "title": "Income Certificate",
+      "description": "Apply for income certificate online for various purposes",
+      "icon": "fas fa-certificate",
+      "category": "certificate", 
+      "url": "https://income.rewa.gov.in",
+      "active": true
+    },
+    {
+      "id": "caste-certificate",
+      "title": "SC-ST Caste Certificate",
+      "description": "Apply for Scheduled Caste/Scheduled Tribe caste certificate",
+      "icon": "fas fa-users",
+      "category": "certificate",
+      "url": "https://caste.rewa.gov.in",
+      "active": true
+    },
+    {
+      "id": "grievance",
+      "title": "Lodge a Grievance",
+      "description": "Submit your complaints and grievances online",
+      "icon": "fas fa-exclamation-triangle",
+      "category": "grievance",
+      "url": "https://grievance.rewa.gov.in",
+      "active": true
+    },
+    {
+      "id": "property-tax",
+      "title": "Property Tax Payment",
+      "description": "Pay your property tax online with secure payment gateway",
+      "icon": "fas fa-home",
+      "category": "tax",
+      "url": "https://propertytax.rewa.gov.in",
+      "active": true
+    },
+    {
+      "id": "trade-license",
+      "title": "Trade License",
+      "description": "Apply for new trade license or renew existing license",
+      "icon": "fas fa-store",
+      "category": "license",
+      "url": "https://tradelicense.rewa.gov.in",
+      "active": true
+    },
+    {
+      "id": "birth-certificate",
+      "title": "Birth Certificate",
+      "description": "Apply for birth certificate online for newborns",
+      "icon": "fas fa-baby",
+      "category": "certificate",
+      "url": "https://birth.rewa.gov.in",
+      "active": true
+    },
+    {
+      "id": "death-certificate",
+      "title": "Death Certificate",
+      "description": "Apply for death certificate online with required documents",
+      "icon": "fas fa-cross",
+      "category": "certificate",
+      "url": "https://death.rewa.gov.in",
+      "active": true
+    },
+    {
+      "id": "water-connection",
+      "title": "Water Connection",
+      "description": "Apply for new water connection or report water issues",
+      "icon": "fas fa-tint",
+      "category": "utility",
+      "url": "https://water.rewa.gov.in",
+      "active": true
+    },
+    {
+      "id": "street-light",
+      "title": "Street Light Complaint",
+      "description": "Report street light issues and maintenance requests",
+      "icon": "fas fa-lightbulb",
+      "category": "utility",
+      "url": "https://streetlight.rewa.gov.in",
+      "active": true
+    },
+    {
+      "id": "health-services",
+      "title": "Health Services",
+      "description": "Access municipal health services and hospital information",
+      "icon": "fas fa-hospital",
+      "category": "health",
+      "url": "https://health.rewa.gov.in",
+      "active": true
+    }
+  ],
+  "navigation": [
+    {
+      "label": "HOME",
+      "url": "#",
+      "active": true
+    },
+    {
+      "label": "ABOUT CITY",
+      "url": "#",
+      "hasDropdown": true
+    },
+    {
+      "label": "DIRECTORY", 
+      "url": "#",
+      "hasDropdown": true
+    },
+    {
+      "label": "DEPARTMENTS",
+      "url": "#",
+      "hasDropdown": true
+    },
+    {
+      "label": "TOURISM",
+      "url": "#", 
+      "hasDropdown": true
+    },
+    {
+      "label": "DOCUMENTS",
+      "url": "#",
+      "hasDropdown": true
+    },
+    {
+      "label": "FORMS",
+      "url": "#"
+    },
+    {
+      "label": "NOTICES",
+      "url": "#",
+      "hasDropdown": true
+    },
+    {
+      "label": "CITIZEN SERVICES",
+      "url": "#",
+      "highlighted": true
+    }
+  ],
+  "bannerImages": [
+    {
+      "src": "assets/rewa-banner-1.jpg",
+      "alt": "Rewa City View"
+    },
+    {
+      "src": "assets/rewa-banner-2.jpg", 
+      "alt": "Rewa Heritage"
+    },
+    {
+      "src": "assets/rewa-banner-3.jpg",
+      "alt": "Rewa Development"
+    }
+  ],
+  "quickLinks": [
+    {
+      "title": "About Rewa",
+      "url": "#"
+    },
+    {
+      "title": "Mayor's Office", 
+      "url": "#"
+    },
+    {
+      "title": "Departments",
+      "url": "#"
+    },
+    {
+      "title": "Contact Us",
+      "url": "#"
+    }
+  ],
+  "footerServices": [
+    {
+      "title": "Online Applications",
+      "url": "#"
+    },
+    {
+      "title": "Certificates",
+      "url": "#"
+    },
+    {
+      "title": "Tax Payments",
+      "url": "#"
+    },
+    {
+      "title": "Licenses",
+      "url": "#"
+    }
+  ],
+  "information": [
+    {
+      "title": "Tenders",
+      "url": "#"
+    },
+    {
+      "title": "Public Notices",
+      "url": "#"
+    },
+    {
+      "title": "Downloads",
+      "url": "#"
+    },
+    {
+      "title": "RTI",
+      "url": "#"
+    }
+  ]
+}

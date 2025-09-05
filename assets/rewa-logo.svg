@@ -1,0 +1,13 @@
+<!-- Placeholder SVG for Rewa Logo -->
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff7b39;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e65100;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="40" cy="40" r="35" fill="url(#logoGradient)" stroke="#fff" stroke-width="2"/>
+  <text x="40" y="30" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">REWA</text>
+  <text x="40" y="45" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">MUNICIPAL</text>
+  <text x="40" y="55" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">CORP.</text>
+</svg>

@@ -1,0 +1,61 @@
+<!-- Placeholder Banner 2 - Rewa Heritage -->
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heritageGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6347;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#FFD700;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FF7F50;stop-opacity:0.8" />
+    </linearGradient>
+    <radialGradient id="templeGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#F5DEB3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D2B48C;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#heritageGradient)"/>
+  
+  <!-- Temple/Palace Structure -->
+  <polygon points="500,150 600,100 700,150 700,300 500,300" fill="url(#templeGradient)" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Temple Dome -->
+  <ellipse cx="600" cy="100" rx="50" ry="30" fill="#DAA520" stroke="#B8860B" stroke-width="2"/>
+  <rect x="595" y="85" width="10" height="20" fill="#B8860B"/>
+  <circle cx="600" cy="80" r="5" fill="#FFD700"/>
+  
+  <!-- Pillars -->
+  <rect x="520" y="200" width="15" height="100" fill="#F5DEB3" stroke="#D2B48C" stroke-width="1"/>
+  <rect x="580" y="200" width="15" height="100" fill="#F5DEB3" stroke="#D2B48C" stroke-width="1"/>
+  <rect x="620" y="200" width="15" height="100" fill="#F5DEB3" stroke="#D2B48C" stroke-width="1"/>
+  <rect x="680" y="200" width="15" height="100" fill="#F5DEB3" stroke="#D2B48C" stroke-width="1"/>
+  
+  <!-- Arches -->
+  <path d="M 540 200 Q 560 180 580 200" fill="none" stroke="#8B4513" stroke-width="3"/>
+  <path d="M 600 200 Q 620 180 640 200" fill="none" stroke="#8B4513" stroke-width="3"/>
+  <path d="M 660 200 Q 680 180 700 200" fill="none" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Palace Windows -->
+  <rect x="540" y="160" width="20" height="30" fill="#8B4513" rx="10"/>
+  <rect x="580" y="160" width="20" height="30" fill="#8B4513" rx="10"/>
+  <rect x="620" y="160" width="20" height="30" fill="#8B4513" rx="10"/>
+  <rect x="660" y="160" width="20" height="30" fill="#8B4513" rx="10"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="450" cy="250" r="30" fill="#FF6347" opacity="0.6"/>
+  <polygon points="430,250 450,230 470,250 450,270" fill="#FFD700" opacity="0.7"/>
+  
+  <circle cx="750" cy="200" r="25" fill="#FF7F50" opacity="0.6"/>
+  <polygon points="735,200 750,185 765,200 750,215" fill="#FFD700" opacity="0.7"/>
+  
+  <!-- Traditional Patterns -->
+  <rect x="100" y="350" width="1000" height="20" fill="rgba(139,69,19,0.3)"/>
+  <rect x="120" y="355" width="20" height="10" fill="#FFD700"/>
+  <rect x="160" y="355" width="20" height="10" fill="#FF6347"/>
+  <rect x="200" y="355" width="20" height="10" fill="#FFD700"/>
+  <rect x="240" y="355" width="20" height="10" fill="#FF6347"/>
+  
+  <!-- Title Overlay -->
+  <rect x="0" y="320" width="1200" height="80" fill="rgba(139,69,19,0.7)"/>
+  <text x="600" y="350" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="white">Rewa Heritage</text>
+  <text x="600" y="375" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#FFE4B5">Preserving our rich cultural legacy</text>
+</svg>

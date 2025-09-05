@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory - Rewa Municipal Corporation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body data-page="directory">
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo-section">
+                        <div class="logo">
+                            <img src="assets/rewa-logo.svg" alt="Rewa Municipal Corporation" class="logo-img">
+                        </div>
+                        <div class="logo-text">
+                            <h1>रीवा नगर निगम</h1>
+                            <p>REWA MUNICIPAL CORPORATION</p>
+                            <span>Government of Madhya Pradesh</span>
+                        </div>
+                    </div>
+                    <div class="digital-india">
+                        <img src="assets/digital-india-logo.svg" alt="Digital India" class="digital-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation Placeholder -->
+        <div id="navbar-placeholder"></div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner directory-banner">
+        <div class="banner-slider">
+            <div class="banner-slide active">
+                <img src="assets/rewa-banner-2.svg" alt="Rewa Directory">
+            </div>
+        </div>
+        <div class="banner-overlay">
+            <div class="container">
+                <div class="banner-content">
+                    <h2>Directory</h2>
+                    <p>Contact Information and Important Numbers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-content">
+                <div class="breadcrumb-nav">
+                    <a href="index.html" class="breadcrumb-link">HOME</a>
+                    <span>/</span>
+                    <span>Directory</span>
+                </div>
+                <div class="social-share">
+                    <button class="share-btn"><i class="fas fa-print"></i></button>
+                    <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                    <button class="share-btn"><i class="fab fa-facebook-f"></i></button>
+                    <button class="share-btn"><i class="fab fa-twitter"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content directory-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Directory</h1>
+            </div>
+
+            <!-- Directory Quick Access -->
+            <section class="directory-quick-access">
+                <div class="quick-access-grid">
+                    <div class="quick-access-card" onclick="scrollToSection('contact-directory')">
+                        <div class="quick-icon">
+                            <i class="fas fa-address-book"></i>
+                        </div>
+                        <h3>Contact Directory</h3>
+                        <p>Important contact numbers and addresses</p>
+                    </div>
+
+                    <div class="quick-access-card" onclick="scrollToSection('helpline')">
+                        <div class="quick-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Helpline</h3>
+                        <p>Emergency and helpline numbers</p>
+                    </div>
+
+                    <div class="quick-access-card" onclick="scrollToSection('std-codes')">
+                        <div class="quick-icon">
+                            <i class="fas fa-map-pin"></i>
+                        </div>
+                        <h3>STD & PIN Codes</h3>
+                        <p>Area codes and postal information</p>
+                    </div>
+
+                    <div class="quick-access-card" onclick="scrollToSection('public-utilities')">
+                        <div class="quick-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Public Utilities</h3>
+                        <p>Banks, hospitals, and essential services</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Directory Section -->
+            <section id="contact-directory" class="directory-section">
+                <h2><i class="fas fa-address-book"></i> Contact Directory</h2>
+                
+                <div class="contact-categories">
+                    <!-- Municipal Administration -->
+                    <div class="contact-category">
+                        <h3>Municipal Administration</h3>
+                        <div class="contact-grid">
+                            <div class="contact-card">
+                                <div class="contact-header">
+                                    <h4>Municipal Commissioner</h4>
+                                    <span class="designation">Chief Executive Officer</span>
+                                </div>
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+91-7662-241234</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>commissioner@rewa.gov.in</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Municipal Corporation Office, Civil Lines, Rewa</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-header">
+                                    <h4>Mayor Office</h4>
+                                    <span class="designation">Elected Representative</span>
+                                </div>
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+91-7662-241235</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>mayor@rewa.gov.in</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>Mon-Fri: 10:00 AM - 5:00 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-header">
+                                    <h4>Additional Commissioner</h4>
+                                    <span class="designation">Deputy Chief Executive</span>
+                                </div>
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+91-7662-241236</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>addl.commissioner@rewa.gov.in</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-fax"></i>
+                                        <span>+91-7662-241237</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Departmental Heads -->
+                    <div class="contact-category">
+                        <h3>Departmental Heads</h3>
+                        <div class="contact-grid">
+                            <div class="contact-card">
+                                <div class="contact-header">
+                                    <h4>Chief Medical Officer</h4>
+                                    <span class="designation">Health Department</span>
+                                </div>
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+91-7662-241240</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>cmo@rewa.gov.in</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-header">
+                                    <h4>Executive Engineer</h4>
+                                    <span class="designation">Public Works Department</span>
+                                </div>
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+91-7662-241241</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>ee.pwd@rewa.gov.in</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-header">
+                                    <h4>Superintendent Engineer</h4>
+                                    <span class="designation">Water Supply & Sewerage</span>
+                                </div>
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+91-7662-241242</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>se.water@rewa.gov.in</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-header">
+                                    <h4>Fire Officer</h4>
+                                    <span class="designation">Fire & Emergency Services</span>
+                                </div>
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+91-7662-241243</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                        <span>Emergency: 101</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-header">
+                                    <h4>Revenue Officer</h4>
+                                    <span class="designation">Tax & Revenue Collection</span>
+                                </div>
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+91-7662-241244</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>revenue@rewa.gov.in</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-header">
+                                    <h4>Town Planner</h4>
+                                    <span class="designation">Urban Development</span>
+                                </div>
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+91-7662-241245</span>
+                                    </div>
+                                    <div class="contact-item">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>townplanner@rewa.gov.in</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Helpline Section -->
+            <section id="helpline" class="directory-section">
+                <h2><i class="fas fa-phone"></i> Helpline Numbers</h2>
+                
+                <div class="helpline-grid">
+                    <div class="helpline-category">
+                        <h3>Emergency Services</h3>
+                        <div class="helpline-list">
+                            <div class="helpline-item emergency">
+                                <div class="helpline-number">100</div>
+                                <div class="helpline-info">
+                                    <h4>Police Emergency</h4>
+                                    <p>24/7 Police Emergency Services</p>
+                                </div>
+                            </div>
+                            <div class="helpline-item emergency">
+                                <div class="helpline-number">101</div>
+                                <div class="helpline-info">
+                                    <h4>Fire Emergency</h4>
+                                    <p>Fire & Rescue Services</p>
+                                </div>
+                            </div>
+                            <div class="helpline-item emergency">
+                                <div class="helpline-number">102</div>
+                                <div class="helpline-info">
+                                    <h4>Ambulance</h4>
+                                    <p>Medical Emergency Services</p>
+                                </div>
+                            </div>
+                            <div class="helpline-item emergency">
+                                <div class="helpline-number">108</div>
+                                <div class="helpline-info">
+                                    <h4>Emergency Response</h4>
+                                    <p>Integrated Emergency Services</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="helpline-category">
+                        <h3>Municipal Services</h3>
+                        <div class="helpline-list">
+                            <div class="helpline-item municipal">
+                                <div class="helpline-number">1916</div>
+                                <div class="helpline-info">
+                                    <h4>Municipal Helpline</h4>
+                                    <p>General Municipal Services</p>
+                                </div>
+                            </div>
+                            <div class="helpline-item municipal">
+                                <div class="helpline-number">1800-233-4567</div>
+                                <div class="helpline-info">
+                                    <h4>Water Supply</h4>
+                                    <p>Water Supply Issues & Complaints</p>
+                                </div>
+                            </div>
+                            <div class="helpline-item municipal">
+                                <div class="helpline-number">1800-233-4568</div>
+                                <div class="helpline-info">
+                                    <h4>Electricity Board</h4>
+                                    <p>Power Supply Issues</p>
+                                </div>
+                            </div>
+                            <div class="helpline-item municipal">
+                                <div class="helpline-number">1800-233-4569</div>
+                                <div class="helpline-info">
+                                    <h4>Waste Management</h4>
+                                    <p>Garbage Collection & Sanitation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="helpline-category">
+                        <h3>Citizen Services</h3>
+                        <div class="helpline-list">
+                            <div class="helpline-item citizen">
+                                <div class="helpline-number">181</div>
+                                <div class="helpline-info">
+                                    <h4>Women Helpline</h4>
+                                    <p>24/7 Women Safety & Support</p>
+                                </div>
+                            </div>
+                            <div class="helpline-item citizen">
+                                <div class="helpline-number">1098</div>
+                                <div class="helpline-info">
+                                    <h4>Child Helpline</h4>
+                                    <p>Child Protection Services</p>
+                                </div>
+                            </div>
+                            <div class="helpline-item citizen">
+                                <div class="helpline-number">1073</div>
+                                <div class="helpline-info">
+                                    <h4>Traffic Helpline</h4>
+                                    <p>Traffic Related Issues</p>
+                                </div>
+                            </div>
+                            <div class="helpline-item citizen">
+                                <div class="helpline-number">14567</div>
+                                <div class="helpline-info">
+                                    <h4>CM Helpline</h4>
+                                    <p>Chief Minister's Public Grievance</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- STD & PIN Codes Section -->
+            <section id="std-codes" class="directory-section">
+                <h2><i class="fas fa-map-pin"></i> STD & PIN Codes</h2>
+                
+                <div class="codes-container">
+                    <div class="codes-card">
+                        <div class="codes-header">
+                            <h3>STD Codes</h3>
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="codes-content">
+                            <div class="code-item">
+                                <span class="code-label">Rewa City</span>
+                                <span class="code-value">07662</span>
+                            </div>
+                            <div class="code-item">
+                                <span class="code-label">Rewa Rural</span>
+                                <span class="code-value">07662</span>
+                            </div>
+                            <div class="code-item">
+                                <span class="code-label">Teonthar</span>
+                                <span class="code-value">07661</span>
+                            </div>
+                            <div class="code-item">
+                                <span class="code-label">Huzur</span>
+                                <span class="code-value">07662</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="codes-card">
+                        <div class="codes-header">
+                            <h3>PIN Codes</h3>
+                            <i class="fas fa-mail-bulk"></i>
+                        </div>
+                        <div class="codes-content">
+                            <div class="code-item">
+                                <span class="code-label">Rewa (Main)</span>
+                                <span class="code-value">486001</span>
+                            </div>
+                            <div class="code-item">
+                                <span class="code-label">Civil Lines</span>
+                                <span class="code-value">486001</span>
+                            </div>
+                            <div class="code-item">
+                                <span class="code-label">Rewa City</span>
+                                <span class="code-value">486002</span>
+                            </div>
+                            <div class="code-item">
+                                <span class="code-label">University Area</span>
+                                <span class="code-value">486003</span>
+                            </div>
+                            <div class="code-item">
+                                <span class="code-label">Chorhata</span>
+                                <span class="code-value">486004</span>
+                            </div>
+                            <div class="code-item">
+                                <span class="code-label">Teonthar</span>
+                                <span class="code-value">486005</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Public Utilities Section -->
+            <section id="public-utilities" class="directory-section">
+                <h2><i class="fas fa-building"></i> Public Utilities</h2>
+                
+                <div class="utilities-categories">
+                    <!-- Banks -->
+                    <div class="utility-category">
+                        <h3><i class="fas fa-university"></i> Banks</h3>
+                        <div class="utility-grid">
+                            <div class="utility-card">
+                                <h4>State Bank of India</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Civil Lines Branch</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241250</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Bank of Baroda</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Main Branch, Rewa</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241251</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>ICICI Bank</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> University Road</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241252</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>HDFC Bank</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> City Center</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241253</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hospitals -->
+                    <div class="utility-category">
+                        <h3><i class="fas fa-hospital"></i> Hospitals</h3>
+                        <div class="utility-grid">
+                            <div class="utility-card">
+                                <h4>District Hospital Rewa</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Hospital Road, Rewa</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241260</p>
+                                <p><i class="fas fa-clock"></i> 24/7 Emergency</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Sanjay Gandhi Hospital</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Civil Lines</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241261</p>
+                                <p><i class="fas fa-clock"></i> 24/7 Services</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Shree Ram Hospital</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> University Road</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241262</p>
+                                <p><i class="fas fa-clock"></i> 6:00 AM - 10:00 PM</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Mata Prasad Hospital</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Station Road</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241263</p>
+                                <p><i class="fas fa-clock"></i> 24/7 Emergency</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Transportation -->
+                    <div class="utility-category">
+                        <h3><i class="fas fa-bus"></i> Transportation</h3>
+                        <div class="utility-grid">
+                            <div class="utility-card">
+                                <h4>Railway Station</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Rewa Railway Station</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241270</p>
+                                <p><i class="fas fa-info-circle"></i> Enquiry: 139</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Bus Stand</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Interstate Bus Terminal</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241271</p>
+                                <p><i class="fas fa-clock"></i> 5:00 AM - 11:00 PM</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Airport</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Chorhata Airport</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241272</p>
+                                <p><i class="fas fa-info-circle"></i> Domestic Flights</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Taxi Services</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> City Wide Service</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241273</p>
+                                <p><i class="fas fa-clock"></i> 24/7 Available</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Educational Institutions -->
+                    <div class="utility-category">
+                        <h3><i class="fas fa-graduation-cap"></i> Educational Institutions</h3>
+                        <div class="utility-grid">
+                            <div class="utility-card">
+                                <h4>APS University</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> University Campus</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241280</p>
+                                <p><i class="fas fa-envelope"></i> info@apsuniversity.ac.in</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Government Engineering College</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Engineering College Road</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241281</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Medical College Rewa</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> Medical College Campus</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241282</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Kendriya Vidyalaya</h4>
+                                <p><i class="fas fa-map-marker-alt"></i> KV Campus, Rewa</p>
+                                <p><i class="fas fa-phone"></i> +91-7662-241283</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about-city.html">About Rewa</a></li>
+                        <li><a href="#">Mayor's Office</a></li>
+                        <li><a href="#">Departments</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="index.html#services">Online Applications</a></li>
+                        <li><a href="#">Certificates</a></li>
+                        <li><a href="#">Tax Payments</a></li>
+                        <li><a href="#">Licenses</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="#">Tenders</a></li>
+                        <li><a href="#">Public Notices</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">RTI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Rewa Municipal Corporation, MP 486001</p>
+                        <p><i class="fas fa-phone"></i> +91-7662-123456</p>
+                        <p><i class="fas fa-envelope"></i> info@rewa.gov.in</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rewa Municipal Corporation. All rights reserved. | Designed for Digital India Initiative</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="navbar-loader.js"></script>
+    <script src="script.js"></script>
+    <script src="directory-script.js"></script>
+</body>
+</html>

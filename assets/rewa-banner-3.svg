@@ -1,0 +1,83 @@
+<!-- Placeholder Banner 3 - Rewa Development -->
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="developmentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4169E1;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#00CED1;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#32CD32;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B0C4DE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#708090;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#developmentGradient)"/>
+  
+  <!-- Modern Buildings -->
+  <rect x="150" y="100" width="60" height="200" fill="url(#buildingGradient)" stroke="#2F4F4F" stroke-width="2"/>
+  <rect x="230" y="80" width="80" height="220" fill="url(#buildingGradient)" stroke="#2F4F4F" stroke-width="2"/>
+  <rect x="330" y="120" width="70" height="180" fill="url(#buildingGradient)" stroke="#2F4F4F" stroke-width="2"/>
+  <rect x="420" y="90" width="90" height="210" fill="url(#buildingGradient)" stroke="#2F4F4F" stroke-width="2"/>
+  <rect x="530" y="110" width="75" height="190" fill="url(#buildingGradient)" stroke="#2F4F4F" stroke-width="2"/>
+  <rect x="630" y="85" width="85" height="215" fill="url(#buildingGradient)" stroke="#2F4F4F" stroke-width="2"/>
+  <rect x="740" y="105" width="65" height="195" fill="url(#buildingGradient)" stroke="#2F4F4F" stroke-width="2"/>
+  <rect x="830" y="95" width="95" height="205" fill="url(#buildingGradient)" stroke="#2F4F4F" stroke-width="2"/>
+  <rect x="950" y="115" width="70" height="185" fill="url(#buildingGradient)" stroke="#2F4F4F" stroke-width="2"/>
+  
+  <!-- Building Windows (Modern Pattern) -->
+  <rect x="160" y="120" width="8" height="8" fill="#FFE4B5"/>
+  <rect x="175" y="120" width="8" height="8" fill="#FFE4B5"/>
+  <rect x="190" y="120" width="8" height="8" fill="#FFE4B5"/>
+  <rect x="160" y="140" width="8" height="8" fill="#FFE4B5"/>
+  <rect x="175" y="140" width="8" height="8" fill="#FFE4B5"/>
+  <rect x="190" y="140" width="8" height="8" fill="#FFE4B5"/>
+  
+  <rect x="250" y="100" width="10" height="10" fill="#87CEEB"/>
+  <rect x="270" y="100" width="10" height="10" fill="#87CEEB"/>
+  <rect x="290" y="100" width="10" height="10" fill="#87CEEB"/>
+  <rect x="250" y="120" width="10" height="10" fill="#87CEEB"/>
+  <rect x="270" y="120" width="10" height="10" fill="#87CEEB"/>
+  <rect x="290" y="120" width="10" height="10" fill="#87CEEB"/>
+  
+  <!-- Infrastructure Elements -->
+  <!-- Roads -->
+  <rect x="0" y="320" width="1200" height="20" fill="#2F4F4F"/>
+  <rect x="0" y="325" width="1200" height="2" fill="#FFD700" opacity="0.7"/>
+  <rect x="0" y="335" width="1200" height="2" fill="#FFD700" opacity="0.7"/>
+  
+  <!-- Street Lights -->
+  <rect x="200" y="300" width="3" height="20" fill="#2F4F4F"/>
+  <circle cx="201.5" cy="298" r="4" fill="#FFD700"/>
+  
+  <rect x="400" y="300" width="3" height="20" fill="#2F4F4F"/>
+  <circle cx="401.5" cy="298" r="4" fill="#FFD700"/>
+  
+  <rect x="600" y="300" width="3" height="20" fill="#2F4F4F"/>
+  <circle cx="601.5" cy="298" r="4" fill="#FFD700"/>
+  
+  <rect x="800" y="300" width="3" height="20" fill="#2F4F4F"/>
+  <circle cx="801.5" cy="298" r="4" fill="#FFD700"/>
+  
+  <rect x="1000" y="300" width="3" height="20" fill="#2F4F4F"/>
+  <circle cx="1001.5" cy="298" r="4" fill="#FFD700"/>
+  
+  <!-- Digital/Tech Elements -->
+  <circle cx="100" cy="150" r="20" fill="#00CED1" opacity="0.6"/>
+  <rect x="95" y="145" width="10" height="10" fill="white"/>
+  <circle cx="100" cy="150" r="3" fill="#4169E1"/>
+  
+  <circle cx="1100" cy="180" r="25" fill="#32CD32" opacity="0.6"/>
+  <polygon points="1085,180 1100,165 1115,180 1100,195" fill="white"/>
+  <circle cx="1100" cy="180" r="5" fill="#228B22"/>
+  
+  <!-- Development Progress Indicators -->
+  <rect x="50" y="50" width="1100" height="10" fill="rgba(255,255,255,0.3)" rx="5"/>
+  <rect x="50" y="50" width="800" height="10" fill="#32CD32" rx="5"/>
+  
+  <!-- Title Overlay -->
+  <rect x="0" y="320" width="1200" height="80" fill="rgba(47,79,79,0.8)"/>
+  <text x="600" y="350" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="white">Rewa Development</text>
+  <text x="600" y="375" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#87CEEB">Building a smarter, sustainable future</text>
+</svg>

@@ -1,0 +1,119 @@
+// Navbar Component Loader
+function loadNavbar(activePage = 'home') {
+    // Define the navbar HTML directly in JavaScript for better compatibility
+    const navbarHTML = `
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link" id="nav-home">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="about-city.html" class="nav-link" id="nav-about">ABOUT CITY <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about-city.html#history">HISTORY</a></li>
+                            <li><a href="about-city.html#geography">GEOGRAPHY</a></li>
+                            <li><a href="about-city.html#demography">DEMOGRAPHY</a></li>
+                            <li><a href="about-city.html#culture">CULTURE & HERITAGE</a></li>
+                            <li><a href="about-city.html#economy">ECONOMY</a></li>
+                            <li><a href="about-city.html#administration">ADMINISTRATION</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="directory.html" class="nav-link" id="nav-directory">DIRECTORY <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="directory.html#officials">MUNICIPAL OFFICIALS</a></li>
+                            <li><a href="directory.html#departments">DEPARTMENTS</a></li>
+                            <li><a href="directory.html#contacts">CONTACT DIRECTORY</a></li>
+                            <li><a href="directory.html#emergency">EMERGENCY CONTACTS</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link" id="nav-departments">DEPARTMENTS <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#dept-health">HEALTH & SANITATION</a></li>
+                            <li><a href="#dept-water">WATER SUPPLY</a></li>
+                            <li><a href="#dept-road">ROAD & INFRASTRUCTURE</a></li>
+                            <li><a href="#dept-tax">TAX & REVENUE</a></li>
+                            <li><a href="#dept-urban">URBAN PLANNING</a></li>
+                            <li><a href="#dept-fire">FIRE SERVICES</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="tourism.html" class="nav-link" id="nav-tourism">TOURISM <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tourism.html#places">PLACES TO VISIT</a></li>
+                            <li><a href="tourism.html#accommodation">ACCOMMODATION</a></li>
+                            <li><a href="tourism.html#festivals">FESTIVALS</a></li>
+                            <li><a href="tourism.html#heritage">HERITAGE SITES</a></li>
+                            <li><a href="tourism.html#culinary">CULINARY DELIGHTS</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link" id="nav-documents">DOCUMENTS <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#doc-certificates">CERTIFICATES</a></li>
+                            <li><a href="#doc-licenses">LICENSES & PERMITS</a></li>
+                            <li><a href="#doc-policies">POLICIES</a></li>
+                            <li><a href="#doc-reports">ANNUAL REPORTS</a></li>
+                            <li><a href="#doc-rti">RTI DOCUMENTS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#forms" class="nav-link" id="nav-forms">FORMS</a></li>
+                    <li class="dropdown">
+                        <a href="notices.html" class="nav-link" id="nav-notices">NOTICES <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="notices.html#tenders">TENDERS</a></li>
+                            <li><a href="notices.html#news">NEWS & UPDATES</a></li>
+                            <li><a href="notices.html#events">EVENTS</a></li>
+                            <li><a href="notices.html#public">PUBLIC NOTICES</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#services" class="nav-link citizen-services" id="nav-services">CITIZEN SERVICES</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    `;
+
+    // Find the navbar placeholder and replace it
+    const navbarPlaceholder = document.getElementById('navbar-placeholder');
+    if (navbarPlaceholder) {
+        navbarPlaceholder.innerHTML = navbarHTML;
+        
+        // Set active page
+        setActiveNavItem(activePage);
+        
+        // Initialize functionality after navbar is loaded
+        setTimeout(() => {
+            initDropdownMenus();
+            initMobileMenu();
+        }, 100);
+    } else {
+        console.error('Navbar placeholder not found');
+    }
+}
+
+// Set active navigation item
+function setActiveNavItem(activePage) {
+    // Remove all active classes
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.classList.remove('active');
+    });
+    
+    // Add active class to current page
+    const activeNavItem = document.getElementById(`nav-${activePage}`);
+    if (activeNavItem) {
+        activeNavItem.classList.add('active');
+    }
+}
+
+// Initialize navbar on page load
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the current page from the URL or a data attribute
+    const currentPage = document.body.getAttribute('data-page') || 'home';
+    loadNavbar(currentPage);
+});
